@@ -17,37 +17,10 @@
 }
 
 .NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::after {
-  content: url(https://nfld99.com/images/Boops/Lil_Devil.jp);
+  content: url(https://nfld99.com/images/Boops/Lil_Devil.jpg);
 }
 
 .NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]:hover::after {
   content: "Gabe the YouTuber. I'm always down to play games. YEE YEE";
 }
 /* Lil Devil ✓#2004 */
-
-/* †©#7564 */
-.wrapper-3t9DeA[user_by_bdfdb="525899880053342219"]::before , .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/525899880053342219"]::before {
-  content: url(https://nfld99.com/images/Boops/Lil_Devil.png);
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="525899880053342219"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/525899880053342219"]::after {
-  content: "Gabe the YouTuber. \a I'm always down to play games. \a YEE YEE";
-}
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="525899880053342219"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/Lil_Devil.jpg) 50% 50%/cover!important;
-}
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="525899880053342219"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="525899880053342219"]::after {
-  content: url(https://nfld99.com/images/Boops/Lil_Devil.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="525899880053342219"]:hover::after {
-  content: "Gabe the YouTuber. I'm always down to play games. YEE YEE";
-}
-/* †©#7564 */
