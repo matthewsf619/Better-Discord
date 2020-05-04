@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #508";
+  --Update-Text: " Update #509";
   --File-Updated-2020-2-27: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -14888,4 +14888,65 @@ canvas#EditUploadsCanvas{
 .centerButton-3CaNcJ.active-1QRrIS:hover {
   background: var(--Secondary-Background-Colour);
   box-shadow: 0 0 5px var(--Main-Colour) inset;
+}
+
+.drawerSizingWrapper-27qFHb,.emojiPicker-3PwZFl{
+  background: var(--Emote-Popout-Background) 50% 50%/cover;
+  border: 1px solid var(--Secondary-Main-Colour);
+  box-shadow: var(--Secondary-Main-Colour) 1px 0 0 0;
+  transition: all 250ms;
+  border-radius: 5px;
+}
+
+.drawerSizingWrapper-27qFHb:hover,.emojiPicker-3PwZFl:hover{
+  border: 1px solid var(--Main-Colour);
+  box-shadow: var(--Main-Colour) 1px 0 0 0;
+  transition: all 250ms;
+  border-radius: 5px;
+}
+
+.inspector-sdLnLS,.emojiItem-14v6tW.emojiItemSelected-1aLkfV{
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 250ms;
+  border-radius: 5px;
+}
+
+.inspector-sdLnLS:hover,
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV:hover{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  transition: all 250ms;
+  border-radius: 5px;
+}
+
+.theme-dark .emojiItemImageLoading-1yEIxx{
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  transition: all 250ms;
+  border-radius: 5px;
+}
+
+.navButtonActive-3RPAJy {
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 250ms;
+  border-radius: 5px;
+  color: var(--Main-Colour);
+}
+
+.navButtonActive-3RPAJy:hover {
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 250ms;
+  border-radius: 5px;
+  color: var(--Main-Colour);
+}
+
+.emojiPicker-3PwZFl > :nth-child(1),
+.emojiPicker-3PwZFl > :nth-child(2),
+.emojiPicker-3PwZFl > :nth-child(3),
+#emoji-picker-tab-panel * .scroller-2FKFPG,
+.emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl{
+  background-color: rgba(0, 0, 0, var(--Background-Darkness));
 }
