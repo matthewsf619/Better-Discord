@@ -1,2 +1,2 @@
-Bug Fixes .-. 
-New plugin: https://nfld99.com/plugin 
+Fixed Submenus 
+Fixed Fonts not working properly 
