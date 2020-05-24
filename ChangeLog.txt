@@ -1,2 +1,2 @@
-Fixed Submenus 
-Fixed Fonts not working properly 
+Core Bug Fix 
+Yikes O.O 

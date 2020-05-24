@@ -1,3 +1,4 @@
+
 /* NFLD99[DEV]#0001 */
 .wrapper-3t9DeA[user_by_bdfdb="483413721876529174"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/483413721876529174"]::before {
   content: url(https://nfld99.com/images/Boops/NFLD99.svg);
@@ -8,7 +9,7 @@
 }
 
 .modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="483413721876529174"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/NFLD99v2.jpg) 50% 50%/contain no-repeat, url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
 }
 
 .modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="483413721876529174"] *{
@@ -25,3 +26,33 @@
 }
 
 /* NFLD99[DEV]#0001 */
+
+/* ====================================================================================================================================================================================================================== */
+
+/* ÑFŁĐ99[ĐĒV]#7464 */
+.wrapper-3t9DeA[user_by_bdfdb="241406754737487873"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/241406754737487873"]::before {
+  content: url(https://nfld99.com/images/Boops/NFLD99.svg);
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="241406754737487873"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/241406754737487873"]::after {
+  content: "Hello I'm the theme developer \a If you have any issues please join \a the support server server! \a https://nfld99.com/discord";
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="241406754737487873"] > div{
+  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/NFLD99v2.jpg) 50% 50%/contain no-repeat, url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+}
+
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="241406754737487873"] *{
+  color: rgb(0,172,234)!important;
+  border-color: rgb(0,172,234)!important;
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="241406754737487873"]::after {
+  content: url(https://nfld99.com/images/Boops/NFLD99.svg);
+}
+
+.NFLDIncChatUser[NFLDIncChatUser="241406754737487873"]:hover::after {
+  content: "Hello I'm the theme developer If you have any issues please join the support server server! https://nfld99.com/discord";
+}
+
+/* ÑFŁĐ99[ĐĒV]#7464 */
