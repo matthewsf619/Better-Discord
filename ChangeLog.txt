@@ -1,2 +1,2 @@
-Fixed Fonts? 
-Yikes O.O 
+Bug Fixes 
+Plugin updated for toasts with XenoLib 

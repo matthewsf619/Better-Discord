@@ -3,7 +3,7 @@
 class NFLDInc_Plugin {
   getName() { return "NFLDInc_Plugin"; }
 
-  getVersion() { return "5.0.0"; }
+  getVersion() { return "6.0.0"; }
 
   getAuthor() { return "Nfld99"; }
 
@@ -15,7 +15,7 @@ class NFLDInc_Plugin {
 
   start() {
     // If ZLib exists, check for updates
-    if (window.ZLibrary) ZLibrary.PluginUpdater.checkForUpdate("NFLDInc_Plugin","5.0.0","https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Plugins/NFLDInc_Plugin.plugin.js")
+    if (window.ZLibrary) ZLibrary.PluginUpdater.checkForUpdate("NFLDInc_Plugin","6.0.0","https://raw.githubusercontent.com/NFLD99/Better-Discord/master/Plugins/NFLDInc_Plugin.plugin.js")
 
     const UserStore = BdApi.findModuleByProps("getCurrentUser");
 
@@ -59,11 +59,28 @@ class NFLDInc_Plugin {
     }
   }
 
+  observer(mutation) {
+    // If XenoLib exists, check for toasts and sent them to notifactions
+    if (window.XenoLib) {
+    const Toast = document.querySelector(".toast-text");
+    if (Toast !== null) {
+    Toast.style.display = "none";
+    XenoLib.Notifications.danger(Toast.textContent, {timeout: 3000});
+    }
+    }
+    if (window.XenoLib) {
+    const bdToast = document.querySelector(".bd-toast");
+    if (bdToast !== null) {
+    bdToast.style.display = "none";
+    XenoLib.Notifications.danger(bdToast.textContent, {timeout: 3000});
+    }
+    }
+  }
+
   stop() {
     const appMount = document.getElementById("app-mount");
     appMount.classList.remove("NFLDInc"); // remove NFLDInc class to appmount
     appMount.removeAttribute("NFLDIncCurrentUser"); // remove current user to appmount
-
     const allChatUserElements = document.querySelectorAll(".NFLDIncChatUser");
     for (let i = 0; i < allChatUserElements.length; i++) allChatUserElements[i].remove();
   }
