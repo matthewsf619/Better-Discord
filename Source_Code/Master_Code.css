@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #516";
+  --Update-Text: " Update #517";
   --File-Updated-2020-5-24: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -15143,4 +15143,21 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 .xenoLib-notification-loadbar{
   background-image: linear-gradient(130deg,var(--Main-Colour),var(--Secondary-Main-Colour));
+}
+
+.card-1yV8cG{
+  background-color: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Secondary-Main-Colour);
+  transition: all 250ms;
+}
+
+.card-1yV8cG:hover{
+  background-color: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+  transition: all 250ms;
+}
+
+.checkmark-35U2vf{
+  background-color: var(--Main-Colour);
+  color: var(--Background-Colour);
 }
