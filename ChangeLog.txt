@@ -1,2 +1,2 @@
-Bug Fixes 
-Plugin updated for toasts with XenoLib 
+Updating PLugin 
+Bug Fix 

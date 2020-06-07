@@ -56,17 +56,6 @@
 
 
 /* Easter Egg */
-
-.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-NEo0f7.scrollerFade-1Ijw5y > div > div > div:nth-child(27) > div.keybindDescription-2RDbC2{
-  font-size: 0;
-}
-
-.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerWrap-NEo0f7.scrollerFade-1Ijw5y > div > div > div:nth-child(27) > div.keybindDescription-2RDbC2:after {
-  content: "<3 Donator Easter Egg <3";
-  color:var(--Main-Colour);
-  font-size: 12px;
-}
-
 .ragingDemon-bDcoXE,.symbolBackground-1w6i-M{
   margin-bottom: -3px;
   padding-top: 2%;
@@ -106,9 +95,13 @@
 </g></svg>
 */
 
-.fade>div>div>div:nth-child(26)>div.keybindDescription-2RDbC2:after {
+.keyboardShortcutList-13cQ-8 > div:nth-last-child(1) > .keybindDescription-2RDbC2:after {
   content: "<3 Donator Easter Egg <3";
   font-size: 12px;
+}
+
+.keyboardShortcutList-13cQ-8 > div:nth-last-child(1) > .keybindDescription-2RDbC2 {
+  font-size: 0;
 }
 
 /* Add Thank you to account page */
@@ -203,21 +196,9 @@
 }
 
 /* ============================== Plugin Stuff ============================== */
-.NFLDIncChatUser {
-  position: absolute;
-  left: 45px;
-  top: 45px;
-  width: 17px;
-  height: 17px;
-  overflow: visible;
-  cursor: pointer;
-  user-select: none;
-  -webkit-box-flex: 0;
-  flex: 0 0 auto;
-  z-index: 1;
-}
-
-.NFLDIncChatUser:hover:after{
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser::after,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser::after,
+.contents-2mQqc9 > .NFLDIncChatUser::after{
   white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0, 216, 86, 0.9)!important;
@@ -227,15 +208,81 @@
   z-index: 3000000;
   display: inline;
   position: relative;
-  left: 100%;
-  top: 50%;
+  left: -175%;
+  top: -150%;
   transform: translate(0, -50%);
   pointer-events: none;
-  transition: 250ms ease;
+  transition: 80ms ease;
   color: var(--Main-Colour);
-  opacity: 1;
+  opacity: 0;
   animation: rainbow 3s infinite linear;
-  z-index: 99992;
 }
 
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser:hover::after,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser:hover::after,
+.contents-2mQqc9 > .NFLDIncChatUser::after {
+  opacity: 1;
+  transition: 180ms ease-in-out 100ms;
+  animation: boop .5s 1 linear;
+}
+
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser:not(:hover)::after,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser:not(:hover)::after,
+.contents-2mQqc9 > .NFLDIncChatUser:not(:hover)::after {
+  opacity: 0;
+  transition: 180ms ease-in-out 150ms;
+  animation: boop2 .5s 1 linear;
+}
+
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser,
+.contents-2mQqc9 > .NFLDIncChatUser {
+  cursor: pointer;
+}
+
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser::before,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser::before {
+  color: rgba(0, 255, 0, .3);
+  font-size: 13px;
+  z-index: 1;
+  position: absolute;
+  left: 0!important;
+  top: -75%;
+  padding-left: 2px;
+  padding-right: 4px;
+  border-radius: 2px;
+  margin-left: -3px;
+  transform: translate(0, 1px);
+  cursor: pointer;
+  transition: 100ms ease;
+  pointer-events: initial;
+  animation: Brainbow 3s infinite linear;
+}
+
+.contents-2mQqc9 > .NFLDIncChatUser::before {
+  color: rgba(0, 255, 0, .3);
+  font-size: 13px;
+  z-index: 1;
+  position: absolute;
+  left: 0!important;
+  top: 0;
+  padding-left: 2px;
+  padding-right: 4px;
+  border-radius: 2px;
+  margin-left: -3px;
+  transform: translate(0, 1px);
+  cursor: pointer;
+  transition: 100ms ease;
+  pointer-events: initial;
+  animation: Brainbow 3s infinite linear;
+}
+
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser::before,
+.clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser::after,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser::before,
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser::after,
+.contents-2mQqc9 > .NFLDIncChatUser::before,
+.contents-2mQqc9 > .NFLDIncChatUser::after {
+  display: inline-block!important;
+}
 /* ============================== Plugin Stuff ============================== */
