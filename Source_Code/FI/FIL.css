@@ -207,9 +207,9 @@
   font-size: 13px;
   z-index: 3000000;
   display: inline;
-  position: relative;
+  position: absolute;
   left: 0;
-  top: -150%;
+  top: 0;
   transform: translate(0, -50%);
   pointer-events: none;
   transition: 80ms ease;
@@ -284,5 +284,10 @@
 .contents-2mQqc9 > .NFLDIncChatUser::before,
 .contents-2mQqc9 > .NFLDIncChatUser::after {
   display: inline-block!important;
+}
+
+.NFLDIncChatUser{
+  height: 0;
+  width: 0;
 }
 /* ============================== Plugin Stuff ============================== */

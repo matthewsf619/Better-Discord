@@ -8,7 +8,8 @@
 
 .clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser[nfldincchatuser="483413721876529174"]::after,
 .selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser[nfldincchatuser="483413721876529174"]::after,
-.contents-2mQqc9 > .NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]::after {
+.contents-2mQqc9 > .NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]::after,
+.NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]:hover::after  {
   content: "Hello I'm the theme developer \a If you have any issues please join \a the support server server! \a https://nfld99.com/discord";
 }
 
@@ -20,15 +21,6 @@
   color: rgb(0,172,234)!important;
   border-color: rgb(0,172,234)!important;
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]::after {
-  content: url(https://nfld99.com/images/Boops/NFLD99.svg);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="483413721876529174"]:hover::after {
-  content: "Hello I'm the theme developer If you have any issues please join the support server server! https://nfld99.com/discord";
-}
-
 /* NFLD99[DEV]#0001 */
 
 /* ====================================================================================================================================================================================================================== */
