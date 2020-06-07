@@ -208,7 +208,7 @@
   z-index: 3000000;
   display: inline;
   position: relative;
-  left: -175%;
+  left: 0;
   top: -150%;
   transform: translate(0, -50%);
   pointer-events: none;
@@ -246,8 +246,8 @@
   font-size: 13px;
   z-index: 1;
   position: absolute;
-  left: 0!important;
-  top: -75%;
+  left: 20%!important;
+  top: 75%;
   padding-left: 2px;
   padding-right: 4px;
   border-radius: 2px;
@@ -264,8 +264,8 @@
   font-size: 13px;
   z-index: 1;
   position: absolute;
-  left: 0!important;
-  top: 0;
+  left: 3%;
+  top: 19%;
   padding-left: 2px;
   padding-right: 4px;
   border-radius: 2px;
