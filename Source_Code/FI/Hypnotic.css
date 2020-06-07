@@ -1,26 +1,20 @@
 /* νHﾒpͥήoͣtͫic#6666 */
-.wrapper-3t9DeA[user_by_bdfdb="419677528437817345"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/419677528437817345"]::before {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="419677528437817345"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/419677528437817345"]::after {
-  content: "It is both a blessing and a curse, \a to feel everything so very deeply. \a 18th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="419677528437817345"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]::after {
+	content: "It is both a blessing and a curse, \a to feel everything so very deeply. \a 18th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="419677528437817345"]:hover::after {
-  content: "It is both a blessing and a curse, to feel everything so very deeply. 18th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="419677528437817345"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* νHﾒpͥήoͣtͫic#6666 */

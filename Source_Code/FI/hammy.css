@@ -1,26 +1,20 @@
 /* hammy#2400 */
-.wrapper-3t9DeA[user_by_bdfdb="256531049222242304"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::before {
-  content: url(https://nfld99.com/images/Boops/hammy.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="256531049222242304"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/256531049222242304"]::after {
-  content: "Hello Im Hammy! \a I Am A Plugin Dev. \a I Also Do Like Ham.";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="256531049222242304"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="256531049222242304"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="256531049222242304"]::before {
+	content: url(https://nfld99.com/images/Boops/hammy.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="256531049222242304"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="256531049222242304"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="256531049222242304"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="256531049222242304"]::after {
+	content: "Hello Im Hammy! \a I Am A Plugin Dev. \a I Also Do Like Ham."
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="256531049222242304"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="256531049222242304"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="256531049222242304"]::after {
-  content: url(https://nfld99.com/images/Boops/hammy.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="256531049222242304"]:hover::after {
-  content: "Hello Im Hammy! I Am A Plugin Dev. I Also Do Like Ham.";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="256531049222242304"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* hammy#2400 */

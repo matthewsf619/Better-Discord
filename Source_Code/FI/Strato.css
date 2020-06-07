@@ -1,30 +1,25 @@
 /* Strato#4763 */
-.wrapper-3t9DeA[user_by_bdfdb="322758556946530304"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]::before {
-  content: url(https://nfld99.com/images/Boops/Strato.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="322758556946530304"]:hover::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]:hover::before {
-  content: url(https://nfld99.com/images/Boops/Strato.gif);
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]::before {
+	content: url(https://nfld99.com/images/Boops/Strato.png)
 }
-
-.wrapper-3t9DeA[user_by_bdfdb="322758556946530304"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/322758556946530304"]::after {
-  content: "Hello, I'm The Strato! \a The man. The myth. The legend. \a 2nd Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]:hover::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]:hover::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]:hover::before {
+	content: url(https://nfld99.com/images/Boops/Strato.gif)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322758556946530304"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]::after {
+	content: "Hello, I'm The Strato! \a The man. The myth. The legend. \a 2nd Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322758556946530304"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322758556946530304"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="322758556946530304"]::after {
-  content: url(https://nfld99.com/images/Boops/Strato.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="322758556946530304"]:hover::after {
-  content: "Hello, I'm The Strato! The man. The myth. The legend. 2nd Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="322758556946530304"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* Strato#4763 */

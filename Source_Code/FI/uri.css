@@ -1,9 +1,12 @@
 /* uri#0002 */
-.wrapper-3t9DeA[user_by_bdfdb="148059412165033984"]::before , .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::before {
-  content: url(https://nfld99.com/images/Boops/uri.png);
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="148059412165033984"]::before {
+	content: url(https://nfld99.com/images/Boops/uri.png)
 }
-
-.wrapper-3t9DeA[user_by_bdfdb="148059412165033984"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/148059412165033984"]::after {
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="148059412165033984"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="148059412165033984"]::after {
   content: "Hello Im Uri! \a Be a slut. \a Be whatever you want!";
 }
 
@@ -14,13 +17,5 @@
 .modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="148059412165033984"] *{
   color: rgb(0,172,234)!important;
   border-color: rgb(0,172,234)!important;
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="148059412165033984"]::after {
-  content: url(https://nfld99.com/images/Boops/uri.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="148059412165033984"]:hover::after {
-  content: "Hello Im Uri! Be a slut. Be whatever you want!";
 }
 /* uri#0002 */

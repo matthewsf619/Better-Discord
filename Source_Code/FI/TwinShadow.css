@@ -1,26 +1,20 @@
 /* TwinShadow#5717 */
-.wrapper-3t9DeA[user_by_bdfdb="276212376104337409"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::before {
-  content: url(https://nfld99.com/images/Boops/TwinShadow.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="276212376104337409"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::after {
-  content: "Just an anime lover and encoder. \a Just stay away from my foxgirls, mk? \a 5th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="276212376104337409"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="276212376104337409"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="276212376104337409"]::before {
+	content: url(https://nfld99.com/images/Boops/TwinShadow.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="276212376104337409"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/TwinShadow.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="276212376104337409"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="276212376104337409"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="276212376104337409"]::after {
+	content: "Just an anime lover and encoder. \a Just stay away from my foxgirls, mk? \a 5th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="276212376104337409"] *{
-  color: red!important;
-  border-color: red!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="276212376104337409"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/TwinShadow.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="276212376104337409"]::after {
-  content: url(https://nfld99.com/images/Boops/TwinShadow.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="276212376104337409"]:hover::after {
-  content: "Just an anime lover and encoder. Just stay away from my foxgirls, mk? 5th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="276212376104337409"] * {
+	color: red !important;
+	border-color: red !important
 }
 /* TwinShadow#5717 */

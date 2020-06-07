@@ -1,26 +1,20 @@
 /* mxngxxse#0666 */
-.wrapper-3t9DeA[user_by_bdfdb="150927669809250305"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/150927669809250305"]::before {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="150927669809250305"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/150927669809250305"]::after {
-  content: "I run an extremely toxic community \a Find us at \a https://discord.io/toxicgaming/ \a 4th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="150927669809250305"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="150927669809250305"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="150927669809250305"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="150927669809250305"]::after {
+	content: "I run an extremely toxic community \a Find us at \a https://discord.io/toxicgaming/ \a 4th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="150927669809250305"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="150927669809250305"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="150927669809250305"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="150927669809250305"]:hover::after {
-  content: "I run an extremely toxic community Find us at https://discord.io/toxicgaming/ 4th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="150927669809250305"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* mxngxxse#0666 */

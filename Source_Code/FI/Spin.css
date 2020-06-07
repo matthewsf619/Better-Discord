@@ -1,26 +1,20 @@
 /* Spin!#1969 */
-.wrapper-3t9DeA[user_by_bdfdb="311480381046128641"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/311480381046128641"]::before {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="311480381046128641"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/311480381046128641"]::after {
-  content: "Hey I'm Spin! \a I havnt setup my donator perks yet!";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="311480381046128641"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="311480381046128641"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="311480381046128641"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="311480381046128641"]::after {
+	content: "Hey I'm Spin! \a I havnt setup my donator perks yet!"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="311480381046128641"] *{
-  color: pink!important;
-  border-color: pink!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="311480381046128641"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="311480381046128641"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="311480381046128641"]:hover::after {
-  content: "Hey I'm Spin! I havnt setup my donator perks yet!";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="311480381046128641"] * {
+	color: pink !important;
+	border-color: pink !important
 }
 /* Spin!#1969 */

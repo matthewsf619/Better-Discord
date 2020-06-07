@@ -1,26 +1,20 @@
 /* RoV ZeRo#1337 */
-.wrapper-3t9DeA[user_by_bdfdb="191595592772747265"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/191595592772747265"]::before {
-  content: url(https://nfld99.com/images/Boops/RoV_ZeRo.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="191595592772747265"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/191595592772747265"]::after {
-  content: "Hey I'm ZeRo! \a I'm a cute boy who loves \a to play League. \a I host my own Community,\a Representative of Victory \a 14th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="191595592772747265"]::before {
+	content: url(https://nfld99.com/images/Boops/RoV_ZeRo.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="191595592772747265"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="191595592772747265"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="191595592772747265"]::after {
+	content: "Hey I'm ZeRo! \a I'm a cute boy who loves \a to play League. \a I host my own Community,\a Representative of Victory \a 14th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="191595592772747265"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="191595592772747265"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="191595592772747265"]::after {
-  content: url(https://nfld99.com/images/Boops/RoV_ZeRo.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="191595592772747265"]:hover::after {
-  content: "Hey I'm ZeRo! I'm a cute boy who loves to play League. I host my own Community, Representative of Victory 14th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="191595592772747265"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* RoV ZeRo#1337 */

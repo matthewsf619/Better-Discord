@@ -1,26 +1,20 @@
 /* Theory#2449 */
-.wrapper-3t9DeA[user_by_bdfdb="192507720199307265"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/192507720199307265"]::before {
-  content: url(https://nfld99.com/images/Boops/Theory.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="192507720199307265"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/192507720199307265"]::after {
-  content: "Future Author,\a Imperialist,\a and Dr. Pepper Addict.";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="192507720199307265"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="192507720199307265"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="192507720199307265"]::before {
+	content: url(https://nfld99.com/images/Boops/Theory.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="192507720199307265"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/Theory.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="192507720199307265"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="192507720199307265"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="192507720199307265"]::after {
+	content: "Future Author,\a Imperialist,\a and Dr. Pepper Addict."
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="192507720199307265"] *{
-  color: red!important;
-  border-color: red!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="192507720199307265"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/Theory.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="192507720199307265"]::after {
-  content: url(https://nfld99.com/images/Boops/Theory.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="192507720199307265"]:hover::after {
-  content: "Future Author, Imperialist, and Dr. Pepper Addict.";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="192507720199307265"] * {
+	color: red !important;
+	border-color: red !important
 }
 /* Theory#2449 */

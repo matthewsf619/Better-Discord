@@ -1,26 +1,20 @@
 /* 𝓚𝖎𝖓𝖌𝖑𝖊𝖘𝖘#0923 */
-.wrapper-3t9DeA[user_by_bdfdb="486284269652803614"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/486284269652803614"]::before {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="486284269652803614"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/486284269652803614"]::after {
-  content: "Placeholder, \a Placeholder. \a 19th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="486284269652803614"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="486284269652803614"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="486284269652803614"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="486284269652803614"]::after {
+	content: "Placeholder, \a Placeholder. \a 19th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="486284269652803614"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="486284269652803614"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="486284269652803614"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="486284269652803614"]:hover::after {
-  content: "Placeholder, Placeholder. 19th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="486284269652803614"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* 𝓚𝖎𝖓𝖌𝖑𝖊𝖘𝖘#0923 */

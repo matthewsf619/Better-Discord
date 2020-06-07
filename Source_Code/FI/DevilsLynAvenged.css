@@ -1,26 +1,20 @@
 /* DevilsLynAvenged#6457 */
-.wrapper-3t9DeA[user_by_bdfdb="235302947058089984"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::before {
-  content: url(https://nfld99.com/images/Boops/DevilsLynAvenged.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="235302947058089984"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235302947058089984"]::after {
-  content: "Hello Im DevilsLynAvenged! \a I Am A Theme Dev. \a I Normally Have An Anime PFP.";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235302947058089984"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235302947058089984"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235302947058089984"]::before {
+	content: url(https://nfld99.com/images/Boops/DevilsLynAvenged.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235302947058089984"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235302947058089984"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235302947058089984"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235302947058089984"]::after {
+	content: "Hello Im DevilsLynAvenged! \a I Am A Theme Dev. \a I Normally Have An Anime PFP."
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235302947058089984"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235302947058089984"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="235302947058089984"]::after {
-  content: url(https://nfld99.com/images/Boops/DevilsLynAvenged.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="235302947058089984"]:hover::after {
-  content: "Hello Im DevilsLynAvenged! I Am A Theme Dev. I Normally Have An Anime PFP.";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235302947058089984"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* DevilsLynAvenged#6457 */

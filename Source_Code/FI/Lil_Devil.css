@@ -1,26 +1,20 @@
 /* Lil Devil ✓#2004 */
-.wrapper-3t9DeA[user_by_bdfdb="493932895367331843"]::before , .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/493932895367331843"]::before {
-  content: url(https://nfld99.com/images/Boops/Lil_Devil.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="493932895367331843"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/493932895367331843"]::after {
-  content: "Gabe the YouTuber. \a I'm always down to play games. \a YEE YEE";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::before {
+	content: url(https://nfld99.com/images/Boops/Lil_Devil.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/Lil_Devil.jpg) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="493932895367331843"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::after {
+	content: "Gabe the YouTuber. \a I'm always down to play games. \a YEE YEE"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/Lil_Devil.jpg) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]::after {
-  content: url(https://nfld99.com/images/Boops/Lil_Devil.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="493932895367331843"]:hover::after {
-  content: "Gabe the YouTuber. I'm always down to play games. YEE YEE";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="493932895367331843"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* Lil Devil ✓#2004 */

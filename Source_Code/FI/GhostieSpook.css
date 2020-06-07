@@ -1,26 +1,20 @@
 /* GhostieSpook#6565 */
-.wrapper-3t9DeA[user_by_bdfdb="235792008763932672"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235792008763932672"]::before {
-    content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="235792008763932672"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/235792008763932672"]::after {
-    content: "Tis a spook \a Teh spooky spook :>. \a 10th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]::after {
+	content: "Tis a spook \a Teh spooky spook :>. \a 10th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]:hover::after {
-  content: "Tis a spook Teh spooky spook :>. 10th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* GhostieSpook#6565 */

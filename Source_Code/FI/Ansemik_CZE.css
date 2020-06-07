@@ -1,27 +1,20 @@
 /* Ansemik_CZE#9175 */
-.wrapper-3t9DeA[user_by_bdfdb="123119491461677057"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/123119491461677057"]::before {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="123119491461677057"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/123119491461677057"]::after {
-  content: "Just an tiger with wings \a and a furry lover. Im freindly \a and i like to help people. \a 17th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="123119491461677057"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="123119491461677057"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="123119491461677057"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="123119491461677057"]::after {
+	content: "Just an tiger with wings \a and a furry lover. Im freindly \a and i like to help people. \a 17th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="123119491461677057"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="123119491461677057"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="123119491461677057"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="123119491461677057"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="123119491461677057"]:hover::after {
-  content: "Just an tiger with wings and a furry lover. Im freindly and i like to help people. 17th Donator";
-}
-
 /* Ansemik_CZE#9175 */

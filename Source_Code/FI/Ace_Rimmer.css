@@ -1,27 +1,20 @@
 /* Ace Rimmer#6993 */
-.wrapper-3t9DeA[user_by_bdfdb="197406501264949248"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/197406501264949248"]::before {
-  content: url(https://nfld99.com/images/Boops/Ace_Rimmer.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="197406501264949248"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/197406501264949248"]::after {
-  content: "Hey I'm Ace Rimmer. \a Smoke me a kipper, \a I'll be back for breakfast \a 15th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="197406501264949248"]::before {
+	content: url(https://nfld99.com/images/Boops/Ace_Rimmer.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="197406501264949248"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="197406501264949248"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="197406501264949248"]::after {
+	content: "Hey I'm Ace Rimmer. \a Smoke me a kipper, \a I'll be back for breakfast \a 15th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="197406501264949248"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="197406501264949248"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="197406501264949248"]::after {
-  content: url(https://nfld99.com/images/Boops/Ace_Rimmer.png);
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="197406501264949248"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="197406501264949248"]:hover::after {
-  content: "Hey I'm Ace Rimmer. Smoke me a kipper, I'll be back for breakfast 15th Donator";
-}
-
 /* Ace Rimmer#6993 */

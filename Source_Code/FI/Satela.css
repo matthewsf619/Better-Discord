@@ -1,26 +1,20 @@
 /* Satela#1771 */
-.wrapper-3t9DeA[user_by_bdfdb="302208662812884993"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/302208662812884993"]::before {
-    content: url(https://nfld99.com/images/Boops/Satela.png);
-}
-  
-.wrapper-3t9DeA[user_by_bdfdb="302208662812884993"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/302208662812884993"]::after {
-  content: "Hi there, I'm Satela! \a Don't be envious of my charms,\a just let me play with you \a 11th Donator";
-}
 
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="302208662812884993"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="302208662812884993"]::before {
+	content: url(https://nfld99.com/images/Boops/Satela.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="302208662812884993"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="302208662812884993"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="302208662812884993"]::after {
+	content: "Hi there, I'm Satela! \a Don't be envious of my charms,\a just let me play with you \a 11th Donator"
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="302208662812884993"]::after {
-  content: url(https://nfld99.com/images/Boops/Satela.png);
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="302208662812884993"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="302208662812884993"]:hover::after {
-  content: "Hey I'm ZeRo! I'm a cute boy who loves to play League. I host my own Community, Representative of Victory 14th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="302208662812884993"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* Satela#1771 */

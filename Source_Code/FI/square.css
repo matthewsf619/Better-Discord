@@ -1,26 +1,20 @@
 /* square#3880 */
-.wrapper-3t9DeA[user_by_bdfdb="219363409097916416"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::before {
-  content: url(https://nfld99.com/images/Boops/square.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="219363409097916416"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/219363409097916416"]::after {
-  content: "Hello Im Square! \a I Am A Plugin/Theme Dev. \a I Also Love Squares.";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]::before {
+	content: url(https://nfld99.com/images/Boops/square.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="219363409097916416"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="219363409097916416"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]::after {
+	content: "Hello Im Square! \a I Am A Plugin/Theme Dev. \a I Also Love Squares."
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="219363409097916416"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="219363409097916416"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]::after {
-  content: url(https://nfld99.com/images/Boops/square.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="219363409097916416"]:hover::after {
-  content: "Hello Im Square! I Am A Plugin/Theme Dev. I Also Love Squares.";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="219363409097916416"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* square#3880 */

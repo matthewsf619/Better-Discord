@@ -197,8 +197,7 @@
 
 /* ============================== Plugin Stuff ============================== */
 .clickable-1JJAn8 .layout-2DM8Md > .NFLDIncChatUser::after,
-.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser::after,
-.contents-2mQqc9 > .NFLDIncChatUser::after{
+.selected-aXhQR6 .layout-2DM8Md > .NFLDIncChatUser::after{
   white-space: pre;
   background-color: var(--Background-Colour) !important;
   box-shadow: 1px 1px 15px rgba(0, 216, 86, 0.9)!important;
@@ -209,6 +208,26 @@
   display: inline;
   position: absolute;
   left: 0;
+  top: 0;
+  transform: translate(0, -50%);
+  pointer-events: none;
+  transition: 80ms ease;
+  color: var(--Main-Colour);
+  opacity: 0;
+  animation: rainbow 3s infinite linear;
+}
+
+.contents-2mQqc9 > .NFLDIncChatUser::after{
+  white-space: pre;
+  background-color: var(--Background-Colour) !important;
+  box-shadow: 1px 1px 15px rgba(0, 216, 86, 0.9)!important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  z-index: 3000000;
+  display: inline;
+  position: relative;
+  left: 15px;
   top: 0;
   transform: translate(0, -50%);
   pointer-events: none;
@@ -263,9 +282,9 @@
   color: rgba(0, 255, 0, .3);
   font-size: 13px;
   z-index: 1;
-  position: absolute;
-  left: 3%;
-  top: 19%;
+  position: relative;
+  left: -18px;
+  top: -2px;
   padding-left: 2px;
   padding-right: 4px;
   border-radius: 2px;

@@ -1,26 +1,20 @@
 /* breadcat#6969 */
-.wrapper-3t9DeA[user_by_bdfdb="200330618666483712"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/200330618666483712"]::before {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
-}
-  
-.wrapper-3t9DeA[user_by_bdfdb="200330618666483712"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/200330618666483712"]::after {
-  content: "Heya I'm breadcat. \a Yall should be my friend bc \a I'm a good friend \a and bc bread cats are great. \a 9th Donator";
-}
 
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="200330618666483712"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="200330618666483712"]::before {
+	content: url(https://nfld99.com/images/Boops/ChaChing.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="200330618666483712"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="200330618666483712"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="200330618666483712"]::after {
+	content: "Heya I'm breadcat. \a Yall should be my friend bc \a I'm a good friend \a and bc bread cats are great. \a 9th Donator"
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="200330618666483712"]::after {
-  content: url(https://nfld99.com/images/Boops/ChaChing.png);
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="200330618666483712"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="200330618666483712"]:hover::after {
-  content: "Heya I'm breadcat. Yall should be my friend bc I'm a good friend and bc bread cats are great. 9th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="200330618666483712"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* breadcat#6969 */

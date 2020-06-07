@@ -1,26 +1,20 @@
 /* StratoBotElite#6264 */
-.wrapper-3t9DeA[user_by_bdfdb="602406235848835073"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/276212376104337409"]::before {
-  content: url(https://i.imgur.com/CswgKp3.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="602406235848835073"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/602406235848835073"]::after {
-  content: "Thank you for supporting the \a bot and the themes! \a For more information about the \a bot, visit https://sbebot.com \a For more information about the \a themes, visit https://nfld99.com";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="602406235848835073"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="602406235848835073"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="602406235848835073"]::before {
+	content: url(https://nfld99.com/images/Boops/Strato.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="602406235848835073"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="602406235848835073"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="602406235848835073"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="602406235848835073"]::after {
+	content: "Thank you for supporting the \a bot and the themes! \a For more information about the \a bot, visit https://sbebot.com \a For more information about the \a themes, visit https://nfld99.com"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="602406235848835073"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="602406235848835073"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="602406235848835073"]::after {
-  content: url(https://nfld99.com/images/Boops/Strato.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="602406235848835073"]:hover::after {
-  content: "Thank you for supporting the bot and the themes! For more information about the bot, visit https://sbebot.com For more information about the themes, visit https://nfld99.com";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="602406235848835073"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* StratoBotElite#6264 */

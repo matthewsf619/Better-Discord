@@ -1,26 +1,20 @@
 /* DragonStryder#7331 */
-.wrapper-3t9DeA[user_by_bdfdb="221342508133777408"]::before, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/221342508133777408"]::before {
-  content: url(https://nfld99.com/images/Boops/DragonStryder.png);
-}
 
-.wrapper-3t9DeA[user_by_bdfdb="221342508133777408"]::after, .large-3ChYtB:not(.popout-2fzvxG)[style*="avatars/221342508133777408"]::after {
-  content: "Dragons and legends... \a It would have been difficult for \a any man not to want to fight \a beside a dragon. \a 13th Donator";
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::before,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::before,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="221342508133777408"]::before {
+	content: url(https://nfld99.com/images/Boops/DragonStryder.png)
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="221342508133777408"] > div{
-  background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover!important;
+.clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::after,
+.selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="221342508133777408"]::after,
+.contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="221342508133777408"]::after {
+	content: "Dragons and legends... \a It would have been difficult for \a any man not to want to fight \a beside a dragon. \a 13th Donator"
 }
-
-.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="221342508133777408"] *{
-  color: rgb(0,172,234)!important;
-  border-color: rgb(0,172,234)!important;
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="221342508133777408"] > div {
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
 }
-
-.NFLDIncChatUser[NFLDIncChatUser="221342508133777408"]::after {
-  content: url(https://nfld99.com/images/Boops/DragonStryder.png);
-}
-
-.NFLDIncChatUser[NFLDIncChatUser="221342508133777408"]:hover::after {
-  content: "Dragons and legends... It would have been difficult for any man not to want to fight beside a dragon. 13th Donator";
+.modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="221342508133777408"] * {
+	color: rgb(0, 172, 234) !important;
+	border-color: rgb(0, 172, 234) !important
 }
 /* DragonStryder#7331 */
