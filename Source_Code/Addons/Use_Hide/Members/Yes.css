@@ -1,8 +1,8 @@
 /* Members */
 .membersWrap-2h-GB4:not(#dv-mount),.membersWrap-2h-GB4:not(#dv-mount) > div{
-	min-width:50px!important;
+	min-width:60px!important;
 	max-width:240px!important;
-	width:50px;
+	width:60px;
   transition: width .5s;
 }
 
